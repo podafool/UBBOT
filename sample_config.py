@@ -13,19 +13,18 @@ class Config(object):
     LOGGER = True
     # MUST NEEDED VARS
     # set this value with your name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+    ALIVE_NAME = os.environ.get("ALIVE_NAME", "Hyper")
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("APP_ID", 21807456))
+    API_HASH = os.environ.get("3a6b622d0426cfb9624da22665bd4221")
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("DATABASE_URL", mongodb+srv://Singlecell94:Single_1122334455@cluster234.n2vmnn3.mongodb.net/?retryWrites=true&w=majority)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BJWap1wBu7OJVmLxOu8pYJ9IVc-1oRRW-Ij_Z-Jrvz52TJS90_EwvTeBvrvC3K_rMOZmOJFoP0XDMQFc-Zuf_blB6VFQvZOwzV-eTq2l0VoGCEEsrpoEy1hIt6pOr1qUcaJ7B5YL08mvURFzvKSpSF_tQ3jWbUBPkGvc3wg8w1aIdNYZMUulJwH07LTAZVSRwx_EkkJX9ZfkEYnKpygiUqjleAjuxsmTRLrr5hIGna5aUog7M5wG4FAI8vdD-lpskLJnIEh4X127hqd-fkKHc1GsFjbT2uBvv4CeuXhE7iXrQpoZxqNexAYJ3HUNLv_DOmF559b6EYMWjNC-6_pvnVXKIIhyqnI")
     # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
-        "TG_BOT_TOKEN_BF_HER", None
+    TG_BOT_TOKEN = os.environ.get("6702916758:AAHBBBBmHP3J0V5kpUyj9M8qV3ywFiffmvE")
     )
-    TG_BOT_USERNAME = None
+    TG_BOT_USERNAME = Handlersvduser_bot
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
@@ -61,7 +60,7 @@ class Config(object):
     # set this with same app name you given for heroku
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     # Owner id to show profile link of given id as owner
-    OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
+    OWNER_ID = int(os.environ.get("6876314106")
     # set this with group id so it keeps notifying about your tagged messages or pms
     PM_LOGGER_GROUP_ID = int(
         os.environ.get("PM_LOGGER_GROUP_ID")
